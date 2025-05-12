@@ -1,0 +1,41 @@
+.father{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.left, .right{
+    display: inline-block;
+    width: 46%;
+    background-color: antiquewhite;
+    border: 6px solid burlywood;
+
+}
+.change{
+    border: 2px solid darkred;
+    font-size: 92%;
+    margin-left: 2%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: white;
+}
+.change:hover{
+    background-color: rgb(213, 181, 181);
+}
+.change.changed{
+    border: 2px solid darkred;
+    background-color: brown;
+    text-decoration: line-through;
+    text-decoration-thickness: 4px;
+}
+#resetBtn{
+    width: 100%;
+    height: 60px;
+    background-color: lightslategray;
+    margin-top: 4%;
+    font-size: 160%;
+    color: azure;
+}
+#resetBtn:hover{
+    background-color: lightgray;
+    font-size: larger;
+}
